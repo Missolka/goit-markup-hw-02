@@ -1,6 +1,29 @@
 
+.header_contacts{
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.header_mail{
+   
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
 body {
     background: #E5E5E5;
+}
+
+.hero-title{
+    
+}
+a{
+
 }
 h1{
 font-weight: 500;
@@ -8,4 +31,17 @@ font-size: 16px;
 line-height: 24px;
 color:#4D5AE5;
 }
+li{
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+img{
 
+}
+button{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
