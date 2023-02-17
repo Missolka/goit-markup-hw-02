@@ -1,47 +1,112 @@
-
-.header_contacts{
-    list-style: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+.header {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height:24px;
+letter-spacing:1.5em;
+color: #2E2F42;
 }
-.header_mail{
-   
+.header-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height:24px;
+display: flex;
+align-items: center;
+letter-spacing:1.3em;
+text-transform: uppercase;
+color: #2E2F42;
+}
+.header-link{ 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing:1.5em;
+color: #2E2F42;
+}
+.contact-link{
+ font-family: 'Roboto';
+font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-letter-spacing: 0.02em;
+letter-spacing: 1.5em;
 color: #434455;
 }
+.list{
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+:root{
+--secondary-title color: #4D5AE5;
+}
+.about {
+}
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+s}
+
+.about-description {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 1.5em;
+color: #4D5AE5;
+}
+.about-item {
+}
+.about-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 1.2em;
+color: #2E2F42;
+}
+.about-subtitle {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 1.5em;
+color: #434455;
+}
+
 body {
-    background: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
 }
-
-.hero-title{
-    
-}
-a{
-
-}
-h1{
+.about-btn{
+font-family: 'Roboto';
+font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-color:#4D5AE5;
-}
-li{
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-}
-img{
-
-}
-button{
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
 }
