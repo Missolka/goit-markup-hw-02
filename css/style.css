@@ -9,7 +9,6 @@
    --description-color:#E7E9FC;
     }
 .header {
-font-style: normal;
 font-weight: 600;
 font-size: 40px;
 line-height: 1.1;
@@ -105,11 +104,10 @@ overflow: hidden;
 }
 
 .hero{
-background:var(--background-color);
+    background: var(--accent-text-color);
 
 }
 .hero-title{
-font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -153,7 +151,7 @@ line-height: 1.33;
 letter-spacing: 0.04em;
 color: var(--button-color);
 cursor: pointer;
-background:#F4F4FD;
+background:var(--footer-color);
 }
 
 li{
@@ -161,7 +159,6 @@ list-style-type:none;
 }
 
 .features-title{
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -170,7 +167,6 @@ color:var(--accent-text-color);
 }
 
 .features-desc{
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height:1.5;
@@ -178,7 +174,6 @@ letter-spacing: 0.02em;
 color:var(--body-color);
 }
 .headline{
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -186,14 +181,21 @@ letter-spacing: 0.02em;
 text-transform:capitalize;
 color:var(--accent-text-color);
 }
+
+.team{
+    background:var(--footer-color);
+}
 .header-team{
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--accent-text-color);
+}
+
+.about-item{
+    background: var(--title-color);
 }
 .about-description {
 font-weight: 500;
